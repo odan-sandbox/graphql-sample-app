@@ -5,7 +5,13 @@
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "schema/*": [
+        "../../../graphql/*"
+      ]
+    }
   },
   "include": [
     "./src/**/*.ts"
