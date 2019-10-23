@@ -740,9 +740,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@^12.11.2":
-  version "12.11.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.2.tgz#75ba3beda30d690b89a5089ca1c6e8e386150b76"
-  integrity sha512-dsfE4BHJkLQW+reOS6b17xhZ/6FB1rB8eRRvO08nn5o+voxf3i74tuyFWNH6djdfgX7Sm5s6LD8t6mJug4dpDw==
+  version "12.11.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.5.tgz#6c3c8dc84988aff11fd2a63d7b5fbf39eaaab7b1"
+  integrity sha512-LC8ALj/24PhByn39nr5jnTvpE7MujK8y7LQmV74kHYF5iQ0odCPkMH4IZNZw+cobKfSXqaC8GgegcbIsQpffdA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1228,7 +1228,7 @@ aggregate-error@3.0.0:
     clean-stack "^2.0.0"
     indent-string "^3.2.0"
 
-aggregate-error@3.0.1, aggregate-error@^3.0.0:
+aggregate-error@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-3.0.1.tgz#db2fe7246e536f40d9b5442a39e117d7dd6a24e0"
   integrity sha512-quoaXsZ9/BLNae5yiNoUz+Nhkwz83GhWwtYFglcjEQB2NDHCIpApbqXxIFnm4Pq/Nvhrsq5sYJFyohrrxnTGAA==
@@ -2882,11 +2882,6 @@ deepmerge@4.0.0:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.0.0.tgz#3e3110ca29205f120d7cb064960a39c3d2087c09"
   integrity sha512-YZ1rOP5+kHor4hMAH+HRQnBQHg+wvS1un1hAOuIcxcBy0hzcUf6Jg2a1w65kpoOUnurOfZbERwjI1TfZxNjcww==
 
-deepmerge@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.1.1.tgz#ee0866e4019fe62c1276b9062d4c4803d9aea14c"
-  integrity sha512-+qO5WbNBKBaZez95TffdUDnGIo4+r5kmsX8aOb7PDHvXsTbghAmleuxjs6ytNaf5Eg4FGBXDS5vqO61TRi6BMg==
-
 deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
@@ -3180,9 +3175,9 @@ ejs@^2.6.1:
   integrity sha512-kS/gEPzZs3Y1rRsbGX4UOSjtP/CeJP0CxSNZHYxGfVM/VgLcv0ZqM7C45YyTj2DI2g7+P9Dd24C+IMIg6D0nYQ==
 
 electron-to-chromium@^1.3.284:
-  version "1.3.292"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.292.tgz#7812fc5138619342f1dd5823df6e9cbb7d2820e9"
-  integrity sha512-hqkem5ANpt6mxVXmhAmlbdG8iicuyM/jEYgmP1tiHPeOLyZoTyGUzrDmJS/xyrrZy9frkW1uQcubicu7f6DS5g==
+  version "1.3.293"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.293.tgz#e52a30026b89276e211be36083a4d7136fd480ea"
+  integrity sha512-DQSBRuU2Z1vG+CEWUIfCEVMHtuaGlhVojzg39mX5dx7PLSFDJ7DSrGUWzaPFFgWR1jo26hj1nXXRQZvFwk7F8w==
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -4301,26 +4296,7 @@ graphql-toolkit@0.5.16:
     tslib "^1.9.3"
     valid-url "1.0.9"
 
-graphql-toolkit@^0.5.18:
-  version "0.5.18"
-  resolved "https://registry.yarnpkg.com/graphql-toolkit/-/graphql-toolkit-0.5.18.tgz#db6d5a5564bd91341620be88af472f611385d8df"
-  integrity sha512-METklN7TNlcVeJi1xSqDnRCzgu7YVzgXsU/iRpYg4G3znCZyXK1UBedd+ypndOg598bCVkEv4n+daAu+882EZA==
-  dependencies:
-    "@kamilkisiela/graphql-tools" "4.0.6"
-    "@types/glob" "7.1.1"
-    aggregate-error "3.0.1"
-    asyncro "^3.0.0"
-    cross-fetch "^3.0.4"
-    deepmerge "4.1.1"
-    globby "10.0.1"
-    graphql-import "0.7.1"
-    is-glob "4.0.1"
-    is-valid-path "0.1.1"
-    lodash "4.17.15"
-    tslib "^1.9.3"
-    valid-url "1.0.9"
-
-graphql-tools@4.0.5, graphql-tools@^4.0.5:
+graphql-tools@4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-4.0.5.tgz#d2b41ee0a330bfef833e5cdae7e1f0b0d86b1754"
   integrity sha512-kQCh3IZsMqquDx7zfIGWBau42xe46gmqabwYkpPlCLIjcEY1XK+auP7iGRD9/205BPyoQdY8hT96MPpgERdC9Q==
@@ -5480,6 +5456,16 @@ load-json-file@^2.0.0:
     pify "^2.0.0"
     strip-bom "^3.0.0"
 
+load-json-file@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-4.0.0.tgz#2f5f45ab91e33216234fd53adab668eb4ec0993b"
+  integrity sha1-L19Fq5HjMhYjT9U62rZo607AmTs=
+  dependencies:
+    graceful-fs "^4.1.2"
+    parse-json "^4.0.0"
+    pify "^3.0.0"
+    strip-bom "^3.0.0"
+
 loader-fs-cache@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.2.tgz#54cedf6b727e1779fd8f01205f05f6e88706f086"
@@ -5747,6 +5733,11 @@ memory-fs@^0.5.0:
   dependencies:
     errno "^0.1.3"
     readable-stream "^2.0.1"
+
+memorystream@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/memorystream/-/memorystream-0.3.1.tgz#86d7090b30ce455d63fbae12dda51a47ddcaf9b2"
+  integrity sha1-htcJCzDORV1j+64S3aUaR93K+bI=
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -6241,6 +6232,21 @@ npm-packlist@^1.1.6:
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
+
+npm-run-all@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-4.1.5.tgz#04476202a15ee0e2e214080861bff12a51d98fba"
+  integrity sha512-Oo82gJDAVcaMdi3nuoKFavkIHBRVqQ1qvMb+9LHk/cF4P6B2m8aP04hGf7oL6wZ9BuGwX1onlLhpuoofSyoQDQ==
+  dependencies:
+    ansi-styles "^3.2.1"
+    chalk "^2.4.1"
+    cross-spawn "^6.0.5"
+    memorystream "^0.3.1"
+    minimatch "^3.0.4"
+    pidtree "^0.3.0"
+    read-pkg "^3.0.0"
+    shell-quote "^1.6.1"
+    string.prototype.padend "^3.0.0"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -6773,6 +6779,11 @@ picomatch@^2.0.4, picomatch@^2.0.5:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.0.7.tgz#514169d8c7cd0bdbeecc8a2609e34a7163de69f6"
   integrity sha512-oLHIdio3tZ0qH76NybpeneBhYVj0QFTfXEFTc/B3zKQspYfYYkWYgFsmzo+4kvId/bQRcNkVeguI3y+CD22BtA==
+
+pidtree@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/pidtree/-/pidtree-0.3.0.tgz#f6fada10fccc9f99bf50e90d0b23d72c9ebc2e6b"
+  integrity sha512-9CT4NFlDcosssyg8KVFltgokyKZIFjoBxw8CTGy+5F38Y1eQWrt8tRayiUOXE+zVKQnYu5BR8JjCtvK3BcnBhg==
 
 pify@^2.0.0:
   version "2.3.0"
@@ -7413,6 +7424,15 @@ read-pkg@^2.0.0:
     normalize-package-data "^2.3.2"
     path-type "^2.0.0"
 
+read-pkg@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-3.0.0.tgz#9cbc686978fee65d16c00e2b19c237fcf6e38389"
+  integrity sha1-nLxoaXj+5l0WwA4rGcI3/Pbjg4k=
+  dependencies:
+    load-json-file "^4.0.0"
+    normalize-package-data "^2.3.2"
+    path-type "^3.0.0"
+
 read-pkg@^5.1.1:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-5.2.0.tgz#7bf295438ca5a33e56cd30e053b34ee7250c93cc"
@@ -7790,9 +7810,9 @@ sass-loader@^8.0.0:
     semver "^6.3.0"
 
 sass@^1.19.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.23.0.tgz#bd526ff40dbc5d09a4ed69e2cffa849749977710"
-  integrity sha512-W4HT8+WE31Rzk3EPQC++CXjD5O+lOxgYBIB8Ohvt7/zeE2UzYW+TOczDrRU3KcEy3+xwXXbmDsOZFkoqgD4TKw==
+  version "1.23.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.23.1.tgz#0e5b72ba2bd9f0229a637d33f8dd5bf2d810beb3"
+  integrity sha512-zQzJ3UETUWOMd/pJJGH/zvRsBVO97m11RcpfUhcQUHEXf0yHUBgOIE/Nw8aK0m1XyVJPeq228iIK7gVxsJ/Puw==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
@@ -8707,9 +8727,9 @@ ts-invariant@^0.4.0:
     tslib "^1.9.3"
 
 ts-loader@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-6.2.0.tgz#52d3993ecbc5474c1513242388e1049da0fce880"
-  integrity sha512-Da8h3fD+HiZ9GvZJydqzk3mTC9nuOKYlJcpuk+Zv6Y1DPaMvBL+56GRzZFypx2cWrZFMsQr869+Ua2slGoLxvQ==
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-6.2.1.tgz#67939d5772e8a8c6bdaf6277ca023a4812da02ef"
+  integrity sha512-Dd9FekWuABGgjE1g0TlQJ+4dFUfYGbYcs52/HQObE0ZmUNjQlmLAS7xXsSzy23AMaMwipsx5sNHvoEpT2CZq1g==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"

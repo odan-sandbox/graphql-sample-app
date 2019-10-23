@@ -1,13 +1,13 @@
 overwrite: true
-schema: "./schema/schema.graphql"
-documents: "./schema/queries/**"
+schema: "./graphql/schema/schema.gql"
+documents: "./graphql/schema/query/**"
 generates:
-  src/generated/client.ts:
+  graphql/generated/client.ts:
     plugins:
       - typescript
       - typescript-operations
       - typescript-document-nodes
-  src/generated/server.ts:
+  graphql/generated/server.ts:
     plugins:
       - typescript
       - typescript-resolvers
