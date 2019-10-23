@@ -2,11 +2,12 @@
   "name": "frontend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve"
   },
   "dependencies": {
+    "apollo-boost": "^0.4.4",
     "vue": "^2.6.10",
     "vuetify": "^2.1.0"
   },
